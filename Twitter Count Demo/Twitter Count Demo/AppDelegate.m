@@ -3,7 +3,11 @@
 //  Twitter Count Demo
 //
 //  Created by Josh Hudnall on 7/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Josh Hudnall. All rights reserved.
+//  http://joshhudnall.com
+//
+//  Licensed under the Apache 2.0 License
+//  http://www.apache.org/licenses/LICENSE-2.0.html
 //
 
 #import "AppDelegate.h"
@@ -19,7 +23,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.viewController = [[ViewController alloc] init];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

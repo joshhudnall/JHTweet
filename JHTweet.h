@@ -1,5 +1,5 @@
 //
-//  main.m
+//  JHTweetLength.h
 //  Twitter Count Demo
 //
 //  Created by Josh Hudnall on 7/19/12.
@@ -10,13 +10,11 @@
 //  http://www.apache.org/licenses/LICENSE-2.0.html
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import "AppDelegate.h"
+@interface JHTweet : NSObject
 
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
++ (int)lengthOfTweet:(NSString *)tweet;
++ (NSString *)autolinkedTweet:(NSString *)tweet;
+
+@end

@@ -14,7 +14,7 @@
 		727B7BE915B8C6D700D3F248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B7BE815B8C6D700D3F248 /* main.m */; };
 		727B7BED15B8C6D700D3F248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B7BEC15B8C6D700D3F248 /* AppDelegate.m */; };
 		727B7BF015B8C6D700D3F248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B7BEF15B8C6D700D3F248 /* ViewController.m */; };
-		727B7BF315B8C6D700D3F248 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727B7BF115B8C6D700D3F248 /* ViewController.xib */; };
+		727B7BFB15B8C76E00D3F248 /* JHTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B7BFA15B8C76E00D3F248 /* JHTweet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,8 @@
 		727B7BEC15B8C6D700D3F248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		727B7BEE15B8C6D700D3F248 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		727B7BEF15B8C6D700D3F248 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		727B7BF215B8C6D700D3F248 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		727B7BF915B8C76E00D3F248 /* JHTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHTweet.h; path = ../../JHTweet.h; sourceTree = "<group>"; };
+		727B7BFA15B8C76E00D3F248 /* JHTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHTweet.m; path = ../../JHTweet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +82,8 @@
 				727B7BEC15B8C6D700D3F248 /* AppDelegate.m */,
 				727B7BEE15B8C6D700D3F248 /* ViewController.h */,
 				727B7BEF15B8C6D700D3F248 /* ViewController.m */,
-				727B7BF115B8C6D700D3F248 /* ViewController.xib */,
+				727B7BF915B8C76E00D3F248 /* JHTweet.h */,
+				727B7BFA15B8C76E00D3F248 /* JHTweet.m */,
 				727B7BE315B8C6D700D3F248 /* Supporting Files */,
 			);
 			path = "Twitter Count Demo";
@@ -149,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				727B7BE715B8C6D700D3F248 /* InfoPlist.strings in Resources */,
-				727B7BF315B8C6D700D3F248 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +164,7 @@
 				727B7BE915B8C6D700D3F248 /* main.m in Sources */,
 				727B7BED15B8C6D700D3F248 /* AppDelegate.m in Sources */,
 				727B7BF015B8C6D700D3F248 /* ViewController.m in Sources */,
+				727B7BFB15B8C76E00D3F248 /* JHTweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +177,6 @@
 				727B7BE615B8C6D700D3F248 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		727B7BF115B8C6D700D3F248 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				727B7BF215B8C6D700D3F248 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
