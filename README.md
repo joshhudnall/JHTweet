@@ -7,9 +7,8 @@ The demo app does a basic Unit Test for each of the link possibilites described 
 
 The goal is to get both the character counting and autolinking functions working correctly for all unit tests as this is the best way to ensure that JHTweet is counting characters the same as Twitter.
 
-If you fork and improve it, please submit a pull request.
-
 Cheers.
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 License: http://www.apache.org/licenses/LICENSE-2.0.html
